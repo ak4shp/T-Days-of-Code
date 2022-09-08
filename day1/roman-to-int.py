@@ -15,10 +15,10 @@ class Solution:
         }
 
         n = len(s)
-        res = hm[s[n-1]]
-        for i in range(n-2, -1, -1):
+        res = hm[s[n - 1]]
+        for i in range(n - 2, -1, -1):
             left = hm[s[i]]
-            right = hm[s[i+1]]
+            right = hm[s[i + 1]]
 
             if left >= right:
                 res += left

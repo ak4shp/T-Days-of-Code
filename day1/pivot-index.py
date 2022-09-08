@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# LEETCODE # 724
+# LEETCODE #724
 '''
 INPUT -> [1,7,3,6,5,6]
 OUTPUT -> 3
