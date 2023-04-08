@@ -26,7 +26,7 @@ def printArrowPattern(n):
 	draw(n)
 	return []
 
-s = printArrowPattern(5)
+s = printArrowPattern(20)
 for i in s:
     print(i)
     
